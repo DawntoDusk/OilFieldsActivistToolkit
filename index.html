@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Home</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+    <div class="navbar">
+      <ul>
+        <li>
+          <a href="actions.html" style="color:white">Take Action</a>
+        </li>
+        <li> <!-- Drop Down Menu for Learn More -->
+          <div class="dropdown">
+            <button class="dropbtn">Learn More &#8595
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="companies.html">Oil Companies</a>
+              <a href="environment.html">Environmental Impacts</a>
+              <a href="humans.html">Effect on Humans</a>
+               <a href="more.html">More...</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="index.html" style="color:white">Home</a>
+        </li>
+      </ul>
+    </div>
+
+<div class="fixed-bg">
+    <h1 style="background-image: url('https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2015/04/17/102596985-463791062.1910x1000.jpg'); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black">OIL FIELD<p></p>AWARENESS</h1>
+   <!-- Alt text/description of image -->
+    <h4 style="color: white"> Oil pumps and equipment in the South Belridge oil field in Kern County, California, on March 4, 2014, about forty miles west of Bakersfield. Some Central Valley residents are concerned Monterey Shale oil extraction efforts would alter the lives of families living in the rural communities in the valley. (Image by Brian van der Brug)</h4>
+  </div>
+  
+  <div class="scroll-bg">
+  <body> 
+   <table>
+     <tr>
+       <td>
+         <h2> What is an Oil Field? </h2>
+         <p>Oil fields are regions of land or water where an abundance of petroleum extracting wells are established to extract the natural gases beneath its surface. With more
+cost-effective drilling technology, more than 65,000 oil fields of all different sizes have been established and approximately 1.3 million gallons of petroleum is being spilled annually. These oil fields and their spills impact the environment, humans, and climate change. 
+         <a href="https://www.nytimes.com/2014/07/08/us/california-drought-chevron-oil-field-water-irrigation.html">Image Credits</a>  </p>
+       </td>
+       <td>
+        <img style="padding: 20px"src="assets/oildrill.jpg" height=450px width=700px>
+       </td>
+     </tr>
+</table> 
+         <!-- Key Feature -->
+         <h2>Fact Generator</h2>
+         <p>Click the button to learn something new about oil fields and their impacts.</p>
+		<center>
+      <button id="myButton">Tell me</button>
+      <p id="fact" style="margin-top: 1em">Your fact will appear here.</p>
+    </center>
+  </body> </div>
+</html>
